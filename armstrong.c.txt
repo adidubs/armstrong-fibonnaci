@@ -20,4 +20,5 @@ else
 printf("The number is not a Armstrong number.\n",num);
 printf("modified file");
 printf("in the adi branch ");
+printf("New change in Adi branch");
 }
