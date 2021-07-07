@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+main ()
+{
+int num,orignalNumber,remainder, result=0;
+printf("Enter the three digit number");
+scanf("%d",&num);
+orignalNumber = num;
+
+while (orignalNumber != 0)
+{
+remainder = orignalNumber % 10;
+result=result+ pow(remainder,3);
+orignalNumber=orignalNumber/10;
+
+}
+if(result == num)
+printf("The number is Armstrong number.\n",num);
+else
+printf("The number is not a Armstrong number.\n",num);
+
+}
